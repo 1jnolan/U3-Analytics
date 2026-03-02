@@ -27,5 +27,4 @@ while True:
     data=data.replace("'", "") #get rid of the ' infront of and after the data
     data=data.replace(" ", "") #get rid of the spaces
     data=data.replace("\\r\\n", "") #get rid of the \r\n 
-    if len(data)>0:
-        print(data)
+    print(data)
