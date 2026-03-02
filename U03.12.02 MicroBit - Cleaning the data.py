@@ -1,7 +1,7 @@
 import serial #import the module serial to python
 
 ser=serial.Serial()
-#crearte an object ser to call serial afterwards
+#create an object ser to call serial afterwards
 #it should be noted, that objects are not part of the LC course but oddly are needed
 
 ser.baudrate=115200
@@ -19,7 +19,7 @@ ser.open()
 #********************************************************************************
 
 """
-Next set up an infinite loop to retriece the data when a newline \n is detected.
+Next set up an infinite loop to retrieve the data when a newline \n is detected.
 """
 while True:
     data=str(ser.readline()) #read the line of data, convert it to a string store in the data
