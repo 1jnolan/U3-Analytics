@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* PAGE TITLE - STICKY */
+.page-title {
+    position: sticky;
+    top: 0;
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    z-index: 2000; /* On top of everything */
+}
+
+.page-title h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* MENU - STICKY */
+.menu {
+    position: sticky;
+    top: 70px; /* Height of the banner */
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1500;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENT */
+.content {
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 80px;
+    overflow: auto;
+}
+
+/* FLOAT IMAGES LEFT */
+.content img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    max-width: 500px;
+    height: auto;
+}
+
+h2 {
+    margin-top: 0;
+}
